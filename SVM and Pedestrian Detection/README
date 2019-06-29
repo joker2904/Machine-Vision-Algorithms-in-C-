@@ -1,0 +1,17 @@
+Put your solution in the src directory. You can create multiple files for the different tasks. Adapt the CMakeList.txt file and make sure the programs can be compiled with it.
+
+Please provide any other instructions required to run your program here...
+
+Your group members: ....
+REEMA IYER
+MANZIL ROY
+
+
+
+1) The Detections folder contains the final images with detected rectangles, and multiple rectangles removed using Non Maximum Suppression.
+
+2) Precision / recall is plotted. It is shown as increasing C from 0.01 to 100.
+
+3) PredictionScores Folder contains the scores of training data.
+
+

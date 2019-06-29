@@ -1,0 +1,6 @@
+'
+gnuplot> set xlabel 'Recall'
+gnuplot> set ylabel 'Precision'
+gnuplot>  plot "../PrecisionRecallValues.dat" using 1:2 with lines
+gnuplot> 
+

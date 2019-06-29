@@ -1,0 +1,10 @@
+
+1. We ran the training on the tree several times. Because it is randomized , each time the classification results after testing will vary slightly.
+
+2. Same with the forest. Each time the classification result on the forest will vary.
+
+3. On an average the result of training with the forest is a bit better than training with the tree ( as per our observations after running this several times )
+
+4. The tree training is faster than the forest training ( since forest is training several trees in succession ) . Parallelization can make this faster ( we experimentated using multithreading using POSIX threads and saw the results ) .
+
+

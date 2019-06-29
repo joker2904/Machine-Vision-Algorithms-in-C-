@@ -1,0 +1,48 @@
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeeded with the following output:
+Change Dir: /home/manzil/Vision2/Exercises/Sheet02/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7424c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7424c.dir/build.make CMakeFiles/cmTC_7424c.dir/build
+make[1]: Entering directory '/home/manzil/Vision2/Exercises/Sheet02/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7424c.dir/src.c.o
+/usr/bin/cc    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_7424c.dir/src.c.o   -c /home/manzil/Vision2/Exercises/Sheet02/bin/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7424c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7424c.dir/link.txt --verbose=1
+/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTC_7424c.dir/src.c.o  -o cmTC_7424c -rdynamic 
+make[1]: Leaving directory '/home/manzil/Vision2/Exercises/Sheet02/bin/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeeded with the following output:
+Change Dir: /home/manzil/Vision2/Exercises/Sheet02/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2bc59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2bc59.dir/build.make CMakeFiles/cmTC_2bc59.dir/build
+make[1]: Entering directory '/home/manzil/Vision2/Exercises/Sheet02/bin/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2bc59.dir/src.cxx.o
+/usr/bin/c++     -std=c++0x -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_2bc59.dir/src.cxx.o -c /home/manzil/Vision2/Exercises/Sheet02/bin/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2bc59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bc59.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++0x -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTC_2bc59.dir/src.cxx.o  -o cmTC_2bc59 -rdynamic 
+make[1]: Leaving directory '/home/manzil/Vision2/Exercises/Sheet02/bin/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

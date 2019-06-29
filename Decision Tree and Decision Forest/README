@@ -1,0 +1,18 @@
+Implement your solution in the file sheet02.cpp in the src directory.
+The necessary OpenCV header files are already included.
+Your program should run from the terminal with the following command:
+
+./bin/sheet02 images/bonn.png
+
+Please provide any other information required to run your program here...
+
+Your group members: ...
+REEMA IYER
+MANZIL ROY
+
+1. Folder Segment_Output contains the random forest tested images and the comments.
+2. src contains the source code.
+3. The folders Sherwood_Results_exp_n2 and Sherwood_Results_exp_n4 contains the experimented images. The text file Sherwood_Library_Observations.txt contains the observations.
+4. To run the program, the command ./bin/sheet02 is enough ( no need to give arguments ). We have changed the sirectory path inside sheet02.cpp , so it picks up the training and testing files automatically.
+
+

@@ -1,0 +1,56 @@
+The observations recored here are based on the experiments performed ( the images are attached herewith ).
+
+1) exp_n2 :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Depth:
+~~~~~~
+As per the results we see , increasing the depth of the tree(s) increases the quality of classification. But the growth is slow , i.e, from an increase in depth from 3 to 7 we can actually see a difference in the classification partitions.
+A depth of 1 or 2 hardly results in any classification.
+
+Number of Trees in the forest :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Increasing the number of trees results in better classification. But here also the growth is slow. 
+
+Candidate Feature Response :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+When we make it more than 5, we see an increase in the classification are aligned to the spiral ( 9 or 10 makes it more prominent ).
+
+Candidate ThreshHold :
+~~~~~~~~~~~~~~~~~~~~~~
+Increasing it to more than 5 aligns the classification partition towards the spiral. The default value 1 does not do proper classification ( doesn't cover the full spiral area ).
+
+
+2) exp_n4 :
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Depth :
+~~~~~~~
+Increasing the depth results in better classification. This is more prominent here compared to the 2 class spiral.
+
+Trees in Forest :
+~~~~~~~~~~~~~~~~~
+Increasing the number of trees here does not give better classification to that extent ( very minor change is visible which isn't much effective )
+
+Candidate Feature Response :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ The default value 1 does not give a good classification as per the attached images. When we set it to 7 ( or onwards ) we get better classification.
+
+Candidate Theshhold :
+~~~~~~~~~~~~~~~~~~~~
+As per the images attached, incresing this does not affect the classification much. It remains almost the same.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

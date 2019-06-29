@@ -1,0 +1,3 @@
+/home/manzil/Vision2/Exercises/Sheet01/build/CMakeFiles/edit_cache.dir
+/home/manzil/Vision2/Exercises/Sheet01/build/CMakeFiles/rebuild_cache.dir
+/home/manzil/Vision2/Exercises/Sheet01/build/CMakeFiles/sheet01.dir
