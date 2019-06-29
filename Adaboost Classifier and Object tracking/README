@@ -3,11 +3,6 @@ The necessary OpenCV header files are already included.
 
 Please provide information required to run your program here...
 
-Your group members: ...
-
-REEMA IYER
-MANZIL ROY
-
 Adaboost::
 As per the results plotted, the accuracy of the adaboost classifier increases with the number of iterations ( weak classifiers ). But it saturates after a certain number and it degrades as per the plots.
 
