@@ -2,12 +2,6 @@ Put your solution in the src directory. You can create multiple files for the di
 
 Please provide any other instructions required to run your program here...
 
-Your group members: ....
-REEMA IYER
-MANZIL ROY
-
-
-
 1) The Detections folder contains the final images with detected rectangles, and multiple rectangles removed using Non Maximum Suppression.
 
 2) Precision / recall is plotted. It is shown as increasing C from 0.01 to 100.
